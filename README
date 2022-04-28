@@ -1,0 +1,11 @@
+scripts and data needed to generate figures for paper
+"A comparison of hybrid-gain versus hybrid-covariance data assimilation for global NWP"
+by Whitaker, Shlyaeva and Penny
+
+requires matplotlib, netcdf4-python, scipy, numpy
+
+Fig 4:  python plotobfits2_sig.py hybcov0p125 hybgain0p25 '' GL
+Fig 5:  python plotifsdiffrmszm.py hybcov0p125 hybgain0p25
+Fig 6:  python plotobfits2_sig.py hybcov0p125_notlnmc hybgain0p25 '' GL
+Fig 7:  python plotifsdiffrmszm.py hybcov0p125_notlnmc hybgain0p25
+Fig 8:  python plotifsdiffrmszm.py hybcov0p0_notlnmc hybgain0p0
